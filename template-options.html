@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Template Options for Srikanth</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f4f7fb; color: #14213d; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 54px 22px; }
+    h1 { font-size: clamp(2rem, 5vw, 4rem); line-height: 1.05; margin: 0 0 12px; letter-spacing: -0.05em; }
+    p { color: #526173; line-height: 1.7; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
+    .card { background: #fff; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(20, 33, 61, 0.12); border: 1px solid #e7edf5; }
+    .preview { min-height: 240px; padding: 22px; display: grid; align-content: center; gap: 12px; }
+    .dark { background: radial-gradient(circle at 0 0, #2563eb, transparent 30%), #08111f; color: #fff; }
+    .clean { background: linear-gradient(135deg, #ffffff, #e8f0ff); color: #14213d; }
+    .blueprint { background: linear-gradient(135deg, #0f172a, #0f766e); color: #fff; }
+    .bar { height: 10px; border-radius: 999px; background: currentColor; opacity: 0.24; }
+    .bar.short { width: 55%; }
+    .bar.mid { width: 75%; }
+    .mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+    .mini { min-height: 54px; border-radius: 14px; border: 1px solid currentColor; opacity: 0.35; }
+    .content { padding: 22px; }
+    h2 { margin: 0 0 8px; }
+    .badge { display: inline-block; margin-bottom: 14px; padding: 6px 10px; border-radius: 999px; background: #dcfce7; color: #14532d; font-weight: 800; font-size: 0.78rem; }
+    ul { margin: 14px 0 0; padding-left: 18px; color: #526173; line-height: 1.7; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p><strong>Template choices for Srikanth Thota</strong></p>
+    <h1>Portfolio website template direction</h1>
+    <p>I am using Template 1 for the first version because it matches DevOps, Cloud, systems, and data center roles better than a generic frontend portfolio.</p>
+    <section class="grid">
+      <article class="card">
+        <div class="preview dark">
+          <strong>Srikanth Thota</strong>
+          <div class="bar"></div>
+          <div class="bar mid"></div>
+          <div class="mini-grid"><div class="mini"></div><div class="mini"></div><div class="mini"></div><div class="mini"></div></div>
+        </div>
+        <div class="content">
+          <span class="badge">Selected</span>
+          <h2>Template 1: DevOps Command Center</h2>
+          <p>Dark technical design with hero summary, skill cards, experience, and honest project roadmap.</p>
+          <ul><li>Best for DevOps and cloud roles</li><li>Looks technical without fake projects</li><li>Easy to update gradually</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <div class="preview clean">
+          <strong>Srikanth Thota</strong>
+          <div class="bar"></div>
+          <div class="bar short"></div>
+          <div class="mini-grid"><div class="mini"></div><div class="mini"></div></div>
+        </div>
+        <div class="content">
+          <h2>Template 2: Resume First</h2>
+          <p>Clean white layout focused on experience, skills, and resume download.</p>
+          <ul><li>Best for recruiters</li><li>Simple and formal</li><li>Less technical visually</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <div class="preview blueprint">
+          <strong>Srikanth Thota</strong>
+          <div class="bar"></div>
+          <div class="bar mid"></div>
+          <div class="mini-grid"><div class="mini"></div><div class="mini"></div><div class="mini"></div><div class="mini"></div></div>
+        </div>
+        <div class="content">
+          <h2>Template 3: Cloud Blueprint</h2>
+          <p>Architecture-style layout with infrastructure diagrams and project case studies.</p>
+          <ul><li>Best after projects are completed</li><li>Good for Terraform and AWS demos</li><li>Needs more project content</li></ul>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
